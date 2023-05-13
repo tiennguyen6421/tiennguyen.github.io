@@ -1,0 +1,38 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #383c3c;
+    box-sizing: border-box;
+}
+div {
+    text-align: center ;
+}
+
+a {
+    color: #8a8484;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+h4 {
+    color: white;
+    font-size: medium;
+    margin: 10px;
+}
+
+span {
+    color: #8a8484;font-size: smaller;
+}
+
+li {
+    list-style-type: none;
+    font-size: smaller;
+    margin: 4px;
+}
+
+ul {
+    color: #8a8484;
+}
+.1 { 
+    padding: 25;
+}
