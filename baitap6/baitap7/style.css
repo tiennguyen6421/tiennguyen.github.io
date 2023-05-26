@@ -2640,11 +2640,12 @@ body {
   }
 .bannertinyun {
     position: fixed;
-    top: 25%;
-    bottom: 25%;
+    top: 10%;
+    bottom: 10%;
     right: 25%;
     left: 25%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -2675,11 +2676,12 @@ body {
    
 }
 .text-container p {
-    text-transform:initial 
+    text-transform:initial ;
+    margin-bottom: 10px;
 }
 .heart-container {
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
     background-color: #f20044;
     position: relative;
     transform: rotate(-45deg);
@@ -2694,8 +2696,8 @@ body {
 }
 .heart-container::before{
     content: "";position: absolute;
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
     background-color: #f20044;
     top: -50%;
     border-radius: 50px;
@@ -2703,8 +2705,8 @@ body {
 }
 .heart-container::after{
     content: "";position: absolute;
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
     background-color: #f20044;
     right: -50%;
     border-radius: 50px;
